@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/menu_btn_sbpd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sbpd_btn"
+        android:drawableLeft="@drawable/sbpd_logo"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:text="@string/menu_btn_sbpd"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/menu_btn_sbdj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_btn_sbpd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/sbdj_btn"
+        android:drawableLeft="@drawable/sbdj_logo"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:text="@string/menu_btn_sbdj"
+        android:textSize="40sp" />
+
+</RelativeLayout>
